@@ -10,6 +10,7 @@ import { printProps } from "./Components/HighOrderComponents/printProps";
 import { UserInfoHOC } from "./Components/HighOrderComponents/UserInfo";
 import { UserInfoForm } from "./Components/HighOrderComponents/UserInfoForm";
 import { withUser } from "./Components/HighOrderComponents/withUser";
+import OnBoardingParent from "./Components/OnBoardingFormExample/OnBoardingParent";
 // import { ControlledOnboardingFlow } from "./Components/Controlled/ControlledOnboardingFlow";
 // import { UserInfo } from "./Components/CustomHook/UserInfo";
 // import { BigSuccessButton, DangerButton } from "./Components/Functional Programming/Composition";
@@ -192,7 +193,8 @@ function App() {
     {/* <UserInfoWrapped  a={1} b="hello" c={{name:'Mnz'}} /> */}
 
     {/* <WithUserInfoWrapped  /> */}
-    <UserInfoForm />
+    {/* <UserInfoForm /> */}
+    <OnBoardingParent />
 
   </div>
  )
